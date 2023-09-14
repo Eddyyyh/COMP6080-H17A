@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <style type="text/css">
+      div {
+        background-color: pink;
+      }
+
+      #id-div {
+        background-color: lightgreen;
+      }
+
+      .class-div {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: red" id="id-div" class="class-div">
+      What color am I?
+    </div>
+  </body>
+</html>
