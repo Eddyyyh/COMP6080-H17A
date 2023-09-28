@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H17A</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <section>
+        <div class="sidebar-container">SIDEBAR</div>
+      </section>
+      <div class="main-container">
+        <nav class="navbar">
+          <img src="unsw-logo.png" class="logo" />
+          <div class="nav-links">
+            <a href="#" id="nav-home">home</a>
+            |
+            <a href="#" id="nav-contact-us">contact-us</a>
+          </div>
+        </nav>
+        <section>
+          <div class="content-container">
+            <div class="left-content" home-template>
+              <div class="box">BOX</div>
+              <div class="box">BOX</div>
+              <div class="box">BOX</div>
+              <div class="box">BOX</div>
+              <div class="box">BOX</div>
+            </div>
+            <div class="form-page" contact-us-template>
+              <form name="contact-us-form">
+                <label>
+                  Email:
+                  <input name="email" type="email" />
+                </label>
+                <label>
+                  Description:
+                  <textarea name="description"></textarea>
+                </label>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="right-content">right</div>
+          </div>
+        </section>
+        <footer>FOOTER</footer>
+      </div>
+    </div>
+  </body>
+  <script src="page.js"></script>
+</html>
